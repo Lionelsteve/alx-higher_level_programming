@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-for i in range(0, 100):
-    if (i / 10) < (i % 10) and i < 89:
-        print("{:02d}, ".format(i), end = "")
-    elif i == 89:
-        print(i)
+for i in range(0, 10):
+    for j in range(i + 1, 10):
+        if i == 8:
+            print("{}{}".format(i, j))
+        else:
+            print("{}{}".format(i, j), end = ", ")
