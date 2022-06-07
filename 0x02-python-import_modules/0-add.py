@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if _name_ == "_import_":
+if _name_ == "__import__":
     from add_0 import add
     a = 1
     b = 2
